@@ -1,0 +1,135 @@
+body {
+  background-image: url("../img/back.png");
+  background-repeat: no-repeat;
+}
+
+body .btn-ot {
+  border: 10px solid #25b360;
+  background-color: #25b360;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 14px;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body .btn-ot:hover {
+  background-color: #228f50;
+  color: white;
+  border: 10px solid #228f50;
+}
+
+body .btn-sc {
+  border: 6px solid #36b3d3;
+  background-color: #36b3d3;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 3px 90px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  margin-top: 60px;
+  margin-right: 20px;
+}
+
+body .btn-sc:hover {
+  background-color: #329ab4;
+  color: white;
+  border: 6px solid #329ab4;
+}
+
+body .btn-inverse {
+  border: 6px solid black;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 13px;
+  padding: 3px 6px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body header {
+  margin-top: 50px;
+}
+
+body header .lesson {
+  margin: 2.5px;
+}
+
+body header .acc {
+  margin: 5.5px;
+}
+
+body header .number h5 {
+  font-weight: bold;
+}
+
+body header .number p {
+  font-size: 13px;
+  margin-top: -8px;
+}
+
+body header .link a {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.822);
+}
+
+body header .link a:hover {
+  color: black;
+}
+
+body header form input {
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid rgba(71, 71, 71, 0.521);
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+body header .info {
+  color: rgba(0, 0, 0, 0.397);
+}
+
+body header .modal-dialog {
+  margin-top: 200px;
+}
+
+body .school {
+  color: white;
+  margin-top: 170px;
+}
+
+body .school h1 {
+  font-size: 90px;
+  font-weight: bold;
+}
+
+body .school p {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .number {
+    margin-right: 290px;
+  }
+  .call {
+    margin-left: 230px;
+    margin-top: -20px;
+  }
+  .zvonok {
+    margin-right: 12px;
+  }
+  .panda {
+    margin-left: 80px;
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
