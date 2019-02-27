@@ -11,7 +11,8 @@ $divider-color:        #BDBDBD;
 
 
 body {
-    
+
+        
     margin-top: 30px;
       //фикс контеинера
     .container {
@@ -98,6 +99,7 @@ body {
         p {
             font-size: 13px;
             margin-top: -8px;
+            color: black;
         }
     }
 
@@ -165,6 +167,10 @@ footer {
     .imgmin {
         display:none;
     }
+
+    .imgmaxmin {
+        display:none;
+    }
 }
 }
 
@@ -186,11 +192,15 @@ footer {
   
   body footer .school {
       margin-top: 20px;
+      margin-left: 20px;
       h1 {
-          font-size: 70px;
-        
+          font-size: 55px;
+          margin-bottom: 50px;
       }
 
+      p {
+        font-size: 30px;
+      }
   }
 
   body footer .btn-sc {
@@ -206,8 +216,86 @@ footer {
   body footer .imgmin {
       display: block;
   }
-  body {
+  body  {
       margin-bottom: 0px;
+
+	  
   }
 }
+@media screen and (max-width:530px) {
+    
+    body footer .school {
+        margin-top: 20px;
+        margin-left: 20px;
+        h1 {
+            font-size: 45px;
+            margin-bottom: 50px;
+        }
+  
+        p {
+          font-size: 25px;
+        }
+    }
+}
 
+@media screen and (max-width:439px) {
+    body footer .school {
+        margin-top: 20px;
+        margin-left: 20px;
+        h1 {
+            font-size: 35px;
+            margin-bottom: 50px;
+        }
+  
+        p {
+          font-size: 25px;
+        }
+    }
+}
+
+
+@media screen and (max-width:355px) {
+    body footer .imgmin {
+        display: none;
+    }
+    body footer .imgmax {
+        display: none;
+    }
+    body footer .imgmaxmin {
+        display: block;
+       
+    }
+
+    body footer .school {
+        margin-left: 15px;
+        margin-top: 20px;
+        h1 {
+            
+            font-size: 35px;
+            margin-bottom: 20px;
+          
+        }
+        p {
+            font-size: 15px;
+        }
+    }
+
+    .link1 {
+        margin-left: 37px;
+    }
+    body footer .btn-sc {
+        border: 6px solid #36b3d3;
+        background-color: #36b3d3;
+        color: white;
+        font-weight: bold;
+        border-radius: 20px;
+        font-size: 18px;
+        padding: 3px 0px;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        margin-top: 40px;
+        margin-right: 20px;
+        width: 100%; 
+    }
+  
+}
