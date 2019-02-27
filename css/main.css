@@ -1,25 +1,10 @@
 body {
-  background-image: url("../img/back.png");
-  background-repeat: no-repeat;
+  margin-top: 30px;
   margin-bottom: 200px;
 }
 
-body .btn-ot {
-  border: 10px solid #25b360;
-  background-color: #25b360;
-  color: white;
-  font-weight: bold;
-  border-radius: 2px;
-  font-size: 14px;
-  width: 100%;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
-body .btn-ot:hover {
-  background-color: #228f50;
-  color: white;
-  border: 10px solid #228f50;
+body .container {
+  padding: 0;
 }
 
 body .btn-sc {
@@ -54,37 +39,51 @@ body .btn-inverse {
   transition: all 0.2s;
 }
 
-body header {
-  margin-top: 50px;
+body .link1 {
+  margin-right: 50px;
+  margin-top: -80px;
 }
 
-body header .lesson {
-  margin: 2.5px;
-}
-
-body header .acc {
-  margin: 5.5px;
-}
-
-body header .number h5 {
-  font-weight: bold;
-}
-
-body header .number p {
-  font-size: 13px;
-  margin-top: -8px;
-}
-
-body header .link a {
+body .link1 a {
   text-decoration: underline;
   color: rgba(0, 0, 0, 0.822);
 }
 
-body header .link a:hover {
+body .link1 a:hover {
   color: black;
 }
 
-body header form input {
+body .nomer {
+  margin-top: -90px;
+}
+
+body .lesson {
+  margin: 2.5px;
+}
+
+body .acc {
+  margin: 5.5px;
+}
+
+body .number a {
+  text-decoration: none;
+}
+
+body .number h5 {
+  color: black;
+  font-weight: bold;
+}
+
+body .number p {
+  font-size: 13px;
+  margin-top: -8px;
+}
+
+body footer {
+  margin-top: 50px;
+}
+
+body footer form input {
   width: 100%;
   padding: 1rem;
   background-color: transparent;
@@ -95,42 +94,81 @@ body header form input {
   color: black;
 }
 
-body header .info {
+body footer form .btn-ot {
+  border: 10px solid #25b360;
+  background-color: #25b360;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+  font-size: 14px;
+  width: 100%;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+body footer form .btn-ot:hover {
+  background-color: #228f50;
+  color: white;
+  border: 10px solid #228f50;
+}
+
+body footer .info {
   color: rgba(0, 0, 0, 0.397);
 }
 
-body header .modal-dialog {
+body footer .modal-dialog {
   margin-top: 200px;
 }
 
-body .school {
+body footer .pos {
+  position: relative;
+  margin-top: 50px;
+}
+
+body footer .school {
+  position: absolute;
   color: white;
   margin-top: 170px;
 }
 
-body .school h1 {
+body footer .school h1 {
   font-size: 90px;
   font-weight: bold;
 }
 
-body .school p {
+body footer .school p {
   font-size: 28px;
 }
 
+body footer .imgmin {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
-  .number {
-    margin-right: 290px;
-  }
-  .call {
-    margin-left: 230px;
-    margin-top: -20px;
-  }
-  .zvonok {
-    margin-right: 12px;
-  }
   .panda {
-    margin-left: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .link1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-bottom: 100px;
+  }
+  body footer .school {
+    margin-top: 20px;
+  }
+  body footer .school h1 {
+    font-size: 70px;
+  }
+  footer .imgmax {
+    display: none;
+  }
+  body footer .imgmin {
+    display: block;
+  }
+  body {
+    margin-bottom: 0px;
   }
 }
 /*# sourceMappingURL=main.css.map */
